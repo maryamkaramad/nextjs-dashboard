@@ -39,6 +39,7 @@ export default function Page() {
           <Image
             src="/hero-desktop.png"
             width={1000}
+            priority={true}
             height={760}
             priority={true}
             className="hidden md:block"
